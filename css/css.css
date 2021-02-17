@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+p, label{
+    font-size:15px;
+}
+
+
+nav{
+    display: flex;
+    background-color:pink;
+    padding: 10px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left: 20px;
+    list-style:none;
+}
+nav li a{
+    color:white;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: white;
+
+}
+
+
+.main_section{
+    padding: 5%;
+    text-align: center;
+}
+
+.products{
+background-image: url("../imagenes/fondo1.png");
+background-position-y: top;
+display: flex;
+    flex-direction: row;     /* make main axis horizontal (default setting) */
+    justify-content: center; /* center items horizontally, in this case */
+    align-items: center;     /* center items vertically, in this case */
+    height: 500px;
+}
+.product{
+    padding: 10px;
+}
+.product .content{
+    background-color:white;
+    padding: 10px;
+    box-shadow: 0 0 5px pink;
+}
+.img_content{
+    text-align: center;
+}
+.main_button{
+    background-color: pink;
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover{
+    background-color: #e47083;
+}
+ 
+
+
+ .products2{
+    background-image: url("../imagenes/fondo1.png");
+    height: 700px;
+    background-position-y: top;
+    display: flex;
+    flex-direction: row;     /* make main axis horizontal (default setting) */
+    justify-content:center; /* center items horizontally, in this case */
+    align-items: center;     /* center items vertically, in this case */
+    height: 500px;
+    margin-top: 300px;
+    cursor: pointer;
+    }
+ .product3{
+    padding: 15px;
+  }
+ .product .content4{
+    padding: 15px;
+ }
+ .img_content5{
+    text-align: center;
+    }
+ h2{
+ text-align: center;
+ }
+
+
+ .products3{
+    background-image: url("../imagenes/fondo1.png");
+    height: 500px;
+    background-position-y: top;
+    display: flex;
+        flex-direction: row;     /* make main axis horizontal (default setting) */
+        justify-content:center; /* center items horizontally, in this case */
+        align-items: center;     /* center items vertically, in this case */
+        margin-top: 100px;
+        cursor: pointer;
+    }
+
+    .products3 img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .product5{
+        padding: 15px;
+     }
+     .product .content6{
+        background-color:white;
+        padding: 10px;
+        box-shadow: 0 0 5px pink;
+        }
+    
+    
+     .img_content7{
+        text-align: center;
+     }
+     h2{
+         text-align: center;
+     }
+
+
+
+    .modulo_pago{
+        background-color:white;
+        box-shadow:0 0 5px #e794a2;
+        padding: 10px;
+    }
+    .modulo_pago_imagenes{
+        max-width: 150px;
+        text-align: center;
+        margin: 16px;
+    }
+    
+    .data{
+        margin-top: 15px;
+        width: 100%;
+        height: 30px;
+        border-radius: 2px;
+        border: 1px solid #f1a6b2;
+        box-sizing: border-box;
+    }
+
+    .modulo_pago .main_button{
+        margin-top:15px;
+    }
+
+    
+    footer{
+        display: flex;
+        background-color:pink;
+        padding: 10px;
+        color: white;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+    }
+
+    footer li {
+        list-style:none;
+    }
+
+    footer li a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+
